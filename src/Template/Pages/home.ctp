@@ -130,5 +130,11 @@ oc deploy cakephp-mysql-example --latest
                    </p>
                 <?php endif; ?>
 
+		   <span class="code">REMOTE_ADDR: <?php print_r($_SERVER['REMOTE_ADDR']); ?>
+		   <span class="code">HTTP_CF_CONNECTING_IP: <?php print_r($_SERVER['HTTP_CF_CONNECTING_IP']); ?>
+		   <span class="code">HTTP_X_FORWARED_FOR: <?php print_r($_SERVER['HTTP_X_FORWARDED_FOR']); ?>
+		   <span class="code">HTTP_X_FORWARDED: <?php print_r($_SERVER['HTTP_X_FORWARDED']); ?>
+		   <span class="code">HTTP_CLIENT_IP: <?php print_r($_SERVER['HHTTP_CLIENT_I']); ?>
+
           </section>
         </div>
